@@ -48,7 +48,7 @@ class IocContainer {
     if(service.dependencies) {
       classDependencies = service.dependencies.map((dep) => {
         return this.get(dep);
-      })
+      });
     }
     return classDependencies;
   }

@@ -1,4 +1,4 @@
-import IocContainer from './src/ioc-container.js'
+const IocContainer = require('./dist/ioc-container.cjs.js');
 
 const iocContainer = new IocContainer();
 

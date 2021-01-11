@@ -8,9 +8,20 @@ The purpose of this repo is to build an Inversion of Control container that supp
 # install dependencies
 $ npm install
 
-# create video service with dependency injection
-$ node index.js
+# build browser, ES6 and common.js
+$ npm run build
+```
 
+## Tests
+
+```bash
 # run tests against ioc-container
 $ npm run test
+```
+
+## common.js example
+
+```bash
+# create video service with dependency injection
+$ node index.js
 ```
