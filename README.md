@@ -19,9 +19,20 @@ $ npm run build
 $ npm run test
 ```
 
+Coverage report is in `/coverage`
+
 ## common.js example
 
 ```bash
 # create video service with dependency injection
-$ node index.js
+$ node common.js
 ```
+
+## ES6 example
+
+```bash
+# create video service with dependency injection
+$ run npm sample
+```
+
+Navigate to [http://localhost:3000](http://localhost:3000)

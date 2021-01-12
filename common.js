@@ -1,4 +1,4 @@
-import IocContainer from './dist/ioc-container.esm.js';
+const IocContainer = require('./dist/ioc-container.cjs.js');
 
 const iocContainer = new IocContainer();
 
@@ -42,6 +42,4 @@ iocContainer.register('video', video, ['configObject', 'adService', 'logger']);
 const videoInstance = iocContainer.get('video');
 
 // print out video instance
-const container = document.getElementById('ioc-container');
-container.innerHTML = JSON.stringify(videoInstance);
-// console.log(videoInstance);
+console.log(videoInstance);

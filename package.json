@@ -10,6 +10,7 @@
     "clean-coverage": "rm -rf ./coverage",
     "clean-dist": "rm -rf ./dist",
     "rollup": "rollup -c",
+    "sample": "npm run build && http-server --p 3000",
     "test": "jest --no-cache"
   },
   "author": "David Herzog",
@@ -26,6 +27,7 @@
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-eslint": "^8.0.1",
     "@rollup/plugin-node-resolve": "^11.0.1",
+    "http-server": "^0.12.3",
     "rollup": "^2.36.1",
     "rollup-plugin-uglify": "^6.0.4"
   }
