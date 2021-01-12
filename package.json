@@ -7,9 +7,10 @@
   "browser": "dist/ioc-container.js",
   "scripts": {
     "build": "npm run clean-dist && npm run rollup",
+    "clean-coverage": "rm -rf ./coverage",
     "clean-dist": "rm -rf ./dist",
     "rollup": "rollup -c",
-    "test": "jest"
+    "test": "jest --no-cache"
   },
   "author": "David Herzog",
   "license": "MIT",
