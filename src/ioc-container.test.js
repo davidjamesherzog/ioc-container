@@ -11,7 +11,7 @@ describe('test the container', () => {
   test('should create container and resolve class instance', () => {
     const video = class Video {
       constructor() {
-        this.value = 1
+        this.value = 1;
       }
     };
 
