@@ -32,7 +32,7 @@ $ node common.js
 
 ```bash
 # create video service with dependency injection
-$ run npm sample
+$ npm run sample
 ```
 
 Navigate to [http://localhost:3000](http://localhost:3000)
