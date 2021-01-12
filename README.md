@@ -8,7 +8,7 @@ The purpose of this repo is to build an Inversion of Control container that supp
 # install dependencies
 $ npm install
 
-# build browser, ES6 and common.js
+# build browser, ES6 and common.js in /dist
 $ npm run build
 ```
 
